@@ -1,24 +1,17 @@
 // src/Title.js
 
 import React from 'react';
-import './Title.css';
+import './Header.css';
 
-function Title() {
+function Header() {
   return (
 
-    <div className="Title">
+    <div className="Header">
       <h1>TIMEZONE</h1>
-
-      <div className="Title-Subtitle"></div>
-
     </div>
   )
 }
 
-export default Title
+export default Header
 
-function MyComp() {
-  // Good! Single line
-  return <h1>Hello World</h1>
-}
 
